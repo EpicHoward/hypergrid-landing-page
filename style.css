@@ -1,0 +1,59 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin:0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+body {}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.jumbotron {
+    background-color: #333;
+    border-radius: 100px;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #333;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+}
+
+.container {
+    text-align: center
+}
+
+.text {
+    text-align: center
+}
