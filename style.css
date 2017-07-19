@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    margin:0;
+    margin: 0;
 }
 
 .navbar a {
@@ -17,7 +17,11 @@
     font-size: 17px;
 }
 
-body {}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 h1 {
     color: black;
@@ -37,7 +41,7 @@ p {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
