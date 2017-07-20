@@ -61,3 +61,12 @@ p {
 .text {
     text-align: center
 }
+
+.tab:hover {
+    right: 100;
+    color: #808080;
+}
+
+.navbar-brand:hover {
+    color: #808080;
+}
