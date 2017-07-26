@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #0085b2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,7 +32,7 @@ p {
 }
 
 .jumbotron {
-    background-color: #333;
+    background-color: #0085b2;
     border-radius: 100px;
 }
 
@@ -64,11 +64,11 @@ p {
 
 .tab:hover {
     right: 100;
-    color: #808080;
+    color: #659EC7;
 }
 
 .navbar-brand:hover {
-    color: #808080;
+    color: #659EC7;
 }
 
 .text pre {
@@ -76,7 +76,7 @@ p {
 }
 
 button {
-    background-color: #333;
+    background-color: #0085b2;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -84,4 +84,9 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-top: 5px;
+}
+
+pre {
+    position: center;
 }
