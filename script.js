@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    console.log("ready!");
+
+
+
+
+});
 
 function copyToClipboard(element) {
     var $temp = $("<input>");
@@ -5,10 +12,9 @@ function copyToClipboard(element) {
     $temp.val($(element).text()).select();
     document.execCommand("copy");
     $temp.remove();
-    
+
+    $("#click").click(function() {
+        alert("Copied to the clipboard");
+    });
+
 }
-
-
-
-
-
