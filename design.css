@@ -73,6 +73,7 @@ p {
 
 .text pre {
     text-align: center;
+    white-space: normal;
 }
 
 button {

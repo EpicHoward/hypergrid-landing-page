@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="design.css">
+
+    <link rel="icon" type="image/png" href="hypergridlogo.png">
+
+    <script type="text/javascript" src="script.js">
+    </script>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <a class="navbar-brand" href="info.html">Hypergrid</a>
+
+        <a class='tab' href="https://fin-hypergrid.github.io/core/doc">API Documentation</a>
+
+        <a class='tab' href="https://fin-hypergrid.github.io/core/2.0.2/">Demo</a>
+
+        <a class='tab' href="https://openfin.co/contact/">Contact</a>
+
+        <a class='tab' herf="tips.html">Tips</a>
+
+    </div>
+
+
+    <div class="text">
+
+        <p>
+            This line of code enables the alteration of the hypergrid's color scheme. </p>
+
+        <pre id='tip1'>
+            
+             grid._theme.backgroundColor = 'red';
+             
+              </pre>
+
+        <button onclick="copyToClipboard('#tip1')"> Copy </button>
+
+        <p> Here is a short example of how this line of code can alter in the hypergrid </p>
+
+        <embed src="backgroundcolorexample.png" style="width 650px;height:300px;">
+
+        <p> this code snippet allows the user to change the seconardy background color of the hypergrid. Useful if you want to show personality or creativity with your hypergrid. </p>
+
+        <pre id='tip2'>
+            
+                         grid._theme.backgroundColor2 = 'green';
+              
+                          </pre>
+
+
+        <button onclick="copyToClipboard('#tip2')"> Copy </button>
+
+        <p> Here is an example of what changes that can be made with this code. </p>
+
+        <embed src="backgroundcolor2example.png" style="grid._theme.backgroundColor2 = 'green';">
+
+        <p> This code snippet allows the user to change the selector color, the selector is used to highlight rows to navigate the grid more easily. </p>
+
+        <pre id='tip3'>
+            
+            
+          grid._theme.backgroundSelectionColor = 'orange';
+             
+         </pre>
+
+
+        <button onclick="copyToClipboard('#tip3')"> Copy </button>
+
+        <p> Here is a short example of what kind of changes that can be made to the selector.</p>
+
+        <embed src="selectorOrangeexample.png" style="width 400px;height:80px;">
+
+
+
+
+
+
+
+    </div>
+
+
+    <div class="footer">
+
+
+        <p> OpenFin 2017. All Rights Reserved.</p>
+
+    </div>
+
+
+</body>
+
+</html>
