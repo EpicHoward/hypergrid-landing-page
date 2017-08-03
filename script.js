@@ -1,8 +1,10 @@
 $(document).ready(function() {
     console.log("ready!");
 
-
-
+    $('.copy-btn').click(function() {
+        var btnId = $(this).attr('id')
+        alert('coped to the clipboard')
+    })
 
 });
 
@@ -13,8 +15,10 @@ function copyToClipboard(element) {
     document.execCommand("copy");
     $temp.remove();
 
-    $("#click").click(function() {
-        alert("Copied to the clipboard");
-    });
+
+
+
+
+
 
 }

@@ -43,11 +43,11 @@
              
               </pre>
 
-        <button onclick="copyToClipboard('#tip1')"> Copy </button>
+        <button class="copy-btn" onclick="copyToClipboard('#tip1')"> Copy </button>
 
         <p> Here is a short example of how this line of code can alter in the hypergrid </p>
 
-        <embed src="backgroundcolorexample.png" style="width 650px;height:300px;">
+        <embed src="backgroundcolorexample.png" style="width:400px;height:320px;">
 
         <p> this code snippet allows the user to change the seconardy background color of the hypergrid. Useful if you want to show personality or creativity with your hypergrid. </p>
 
@@ -58,11 +58,11 @@
                           </pre>
 
 
-        <button onclick="copyToClipboard('#tip2')"> Copy </button>
+        <button class="copy-btn" onclick="copyToClipboard('#tip2')"> Copy </button>
 
         <p> Here is an example of what changes that can be made with this code. </p>
 
-        <embed src="backgroundcolor2example.png" style="grid._theme.backgroundColor2 = 'green';">
+        <embed src="backgroundcolor2example.png" style="width:150px;height:300px;">
 
         <p> This code snippet allows the user to change the selector color, the selector is used to highlight rows to navigate the grid more easily. </p>
 
@@ -74,21 +74,113 @@
          </pre>
 
 
-        <button onclick="copyToClipboard('#tip3')"> Copy </button>
+        <button class="copy-btn" onclick="copyToClipboard('#tip3')"> Copy </button>
 
         <p> Here is a short example of what kind of changes that can be made to the selector.</p>
 
-        <embed src="selectorOrangeexample.png" style="width 400px;height:80px;">
+        <embed src="selectorOrangeexample.png" style="width:350px;height:200px;">
 
 
 
+        <pre id='tip4'> 
+              function createCells() {
+
+                     var cellsObj = {};
+                         for ( var c = 1; c <= cells_length; c++ ) {
+
+                              cellsObj['c' + c] = process_input( data );
+                                           }
+                                           
+                                             return cellsObj;
+                                                        }
+                </pre>
 
 
+        <button class="copy-btn" onclick="copyToClipboard('#tip4')"> Copy </button>
+
+
+
+        <!--
+<embed src="creategridfunction.png" style="width:550px;height:200px;">
+-->
+
+
+
+        <pre id='tip5'> 
+           function createGrid( cells_length, rows_length, data ) {
+        
+                  function process_input( data ) {
+          
+                      return data;j
+      
+                                }                  
+                </pre>
+
+        <button class="copy-btn" onclick="copyToClipboard('#tip5')"> Copy </button>
+
+
+        <!-- <embed src="creategridsnippet.png" style="width:450px;height:150px;">
+-->
+
+
+        <pre id='tip5'> 
+         function createCells() {
+         
+             var cellsObj = {};
+                 for ( var c = 1; c <= cells_length; c++ ) {
+
+                     cellsObj['c' + c] = process_input( data );
+                             }
+                             
+                             return cellsObj;
+                                                }
+                </pre>
+
+
+
+        <button class="copy-btn" onclick="copyToClipboard('#tip5')"> Copy </button>
+
+
+        <!--  <embed src="creategridfunction.png" style="width:500px;height:250px;">
+-->
+
+        <pre id='tip6'>
+               function createRows( cells ) {
+                
+                   for ( var r = 1; r &lt;= rows_length; r++ ) {
+                
+                        assign_data.push( cells );
+                
+                                  }createRows( createCells() );
+                
+                                            return assign_data;
+                                                     </pre>
+
+
+        <button class="copy-btn" onclick="copyToClipboard('#tip6')">Copy</button>
+
+
+        <!--    <embed src="createrows.png" style="width:550px;height:200px;">
+
+-->
+        <pre id="tip7">
+                var data = createGrid(10, 20, '')
+                  
+                     var grid = new fin.Hypergrid('#fin-grid', {
+                     
+                        data: data
+                      
+                                })
+                         </pre>
+
+
+        <button class="copy-btn" onclick="copyToClipboard('#tip7')">Copy</button>
+
+        <!--  <embed src="assigndata.png" style="width:550px;height:200px;">
+-->
 
 
     </div>
-
-
     <div class="footer">
 
 
