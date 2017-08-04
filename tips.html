@@ -81,32 +81,7 @@
         <embed src="selectorOrangeexample.png" style="width:350px;height:200px;">
 
 
-
         <pre id='tip4'> 
-              function createCells() {
-
-                     var cellsObj = {};
-                         for ( var c = 1; c <= cells_length; c++ ) {
-
-                              cellsObj['c' + c] = process_input( data );
-                                           }
-                                           
-                                             return cellsObj;
-                                                        }
-                </pre>
-
-
-        <button class="copy-btn" onclick="copyToClipboard('#tip4')"> Copy </button>
-
-
-
-        <!--
-<embed src="creategridfunction.png" style="width:550px;height:200px;">
--->
-
-
-
-        <pre id='tip5'> 
            function createGrid( cells_length, rows_length, data ) {
         
                   function process_input( data ) {
@@ -118,9 +93,10 @@
 
         <button class="copy-btn" onclick="copyToClipboard('#tip5')"> Copy </button>
 
+        <p> this array holds the data values or object used to create the grid table.this function creates the cells/colums of the table grid, this object holds all the cells to the table. Looping as many times as the cells_length value then assiging the
+            key to the number of 'c' and assigining that key a value pair of the value of 'data'. Once the foor loop is finished then return back the cellsObj</p>
 
-        <!-- <embed src="creategridsnippet.png" style="width:450px;height:150px;">
--->
+        <embed src="creategridfunction.png" style="width:450px;height:150px;"> -->
 
 
         <pre id='tip5'> 
@@ -136,13 +112,13 @@
                                                 }
                 </pre>
 
-
-
         <button class="copy-btn" onclick="copyToClipboard('#tip5')"> Copy </button>
 
 
-        <!--  <embed src="creategridfunction.png" style="width:500px;height:250px;">
--->
+        <p> this fucntion retuns back the rows of the table grid it takes the cells from the the createCells() and based on the number of value of rows_length it loops for that many times while i appends them to the 'assign_data' variable</p>
+
+        <embed src="assigndata.png" style="width:500px;height:250px;">
+
 
         <pre id='tip6'>
                function createRows( cells ) {
@@ -160,10 +136,13 @@
         <button class="copy-btn" onclick="copyToClipboard('#tip6')">Copy</button>
 
 
-        <!--    <embed src="createrows.png" style="width:550px;height:200px;">
+
+        <p> it takes the cells from the the createCells() and based on the number of value of rows_length it loops for that many times while i appends them to the 'assign_data' variable. </p>
 
 
--->
+        <embed src="createrows.png" style="width:550px;height:200px;">
+
+
         <pre id="tip7">
                 var data = createGrid(10, 20, '')
                   
@@ -177,8 +156,11 @@
 
         <button class="copy-btn" onclick="copyToClipboard('#tip7')">Copy</button>
 
-        <!--  <embed src="assigndata.png" style="width:550px;height:200px;">
--->
+
+        <p> this allows the change of the grids size it can broad or it can narrow by using creategrid= ( , ,'') think of it as this the first input in creategrid() is the x value it controls the how many inputs will be loaded into one row horizontally. Next
+            the second input the y value manages how many rows will be on the hypergrid vertically. Lasty the final input will be the content you want to be inside of each input. </p>
+
+        <embed src="userinput.png" style="width:550px;height:200px;">
 
 
     </div>
